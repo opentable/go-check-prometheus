@@ -160,6 +160,6 @@ func printUsageErrorAndExit(code int, err error) {
 }
 
 func printUsage() {
-	fmt.Println(usage)
+	fmt.Print(usage)
 	pflag.PrintDefaults()
 }
